@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+       
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid-header {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            background-color: grey;
+            padding: 10px;
+        }
+
+        .nav-list {
+            display: inline;
+            list-style-type: none;
+            margin: 0;
+        }
+
+        .nav-list > li {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .grid-body {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        .grid-item-3 {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 3;
+        }
+        
+        .aside {
+            grid-column-start: 3;
+            grid-row-start: 2;
+        }
+
+    </style>
+</head>
+<body>
+<div class="grid-container">
+
+
+<div class="grid-header">
+<h1><b>Acme Inc.</b></h1>
+<ul class="nav-list">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Contact</a></li>
+</ul>
+</div>
+
+<div class="grid-body">
+<h2><b>Article Title</b></h2>
+
+
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, ut, quasi repudiandae iusto, illo velit voluptas voluptates veritatis debitis iste aperiam ullam est. Eius debitis unde possimus? Molestias, nisi ipsa! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste facilis aspernatur qui incidunt debitis dicta itaque amet similique ad recusandae. Maiores sunt quos cupiditate voluptatum beatae nemo, cum fugiat consequuntur.</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi libero aperiam laborum. Saepe optio iure explicabo quaerat, mollitia quia ipsum veritatis laborum, tempora ut vitae exercitationem est repellat delectus sapiente?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet ipsa ullam hic? Nihil inventore rem a vitae nobis quas quis, cum aperiam iusto consequuntur eos corporis, fugit cumque optio itaque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, facere quo corrupti molestiae obcaecati animi ab quam doloremque est recusandae perspiciatis aut consectetur atque quia quis, officia nobis aliquid voluptatibus. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae eligendi ullam temporibus natus aliquid voluptatem labore. Aperiam quia unde, nulla hic, laborum, officia officiis inventore eveniet maiores labore repellendus quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, culpa debitis reprehenderit nemo excepturi incidunt cupiditate, beatae optio aspernatur cum, quis dolore. Voluptatum ipsam ex possimus sapiente amet rem tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit temporibus dolores quas sunt est consequuntur ab, numquam eius, nostrum, veniam voluptatum illo dolor officia tempora voluptatibus vitae ipsa. Delectus, reiciendis.</p>
+</div>
+
+
+<div class="aside">
+    <h3><b>Extra Links</b></h3>
+<ul>
+    <li><a href="">Official Docs</a></li>
+    <li><a href="">Privacy Policy</a></li>
+    <li><a href="">Terms of Service</a></li>
+</ul>
+</div>
+
+
+
+</div>
+
+</body>
+</html>
